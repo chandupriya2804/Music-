@@ -175,11 +175,6 @@ body {
     color: black;
     background-size: 7.8125rem 7.8125rem;
 }
-
-
-
-
-
 @media only screen and (max-width:700px) {
     body {
         box-sizing: border-box;
@@ -188,32 +183,4 @@ body {
         padding: 5px;
         display: block;
     }
-
-    .numbers {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-
-    .number {
-        width: 4rem;
-        height: 4rem;
-        display: inline-block;
-        border-radius: 0.5rem;
-        background-color: white;
-        font-size: 0.8rem;
-        color: black;
-        margin: 5px;
-    }
-
-    .zero {
-        background-image: url('images/0.png');
-        background-size: 4rem 4rem;
-    }
-
-   
-
-
-
 }
